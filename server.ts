@@ -416,9 +416,11 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`ጥበብ AI (Tibeb AI) Server is running on http://0.0.0.0:${PORT}`);
+    console.log(`ያሬድ AI (Yared AI) Server is running on http://0.0.0.0:${PORT}`);
   });
 }
+
+export default app;
 
 startServer().catch((err) => {
   console.error('Failed to start server:', err);
